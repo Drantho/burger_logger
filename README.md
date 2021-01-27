@@ -16,6 +16,7 @@
 
   ### Github: https://github.com/Drantho/burger_logger
   ### Live: https://amburgerbucketlist.herokuapp.com/
+  ## View on my portfolio: https://drantho.github.io/Portfolio/portfolio.html
 
   This is an app that tracks your burger bucket list. It is a CRUD app that uses node, express, and mysql. The user adds burgers that they have or want to eat. They can then mark that they want to eat it again or have completed eating it.
 
