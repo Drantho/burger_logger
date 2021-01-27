@@ -1,7 +1,7 @@
-<h1>burger!</h1>
+<h1>My burger bucket list!</h1>
 
-<h2>burger that are not eaten!</h2>
-
+<h2>Burgers I still have to eat!</h2>
+<img src="./assets/images/topbun.png" alt="">
 <ul>
   {{#each burger}}
     {{#unless eaten}}
@@ -9,9 +9,10 @@
     {{/unless}}
   {{/each}}
 </ul>
-
-<h2>burger that are eaten!</h2>
-
+<img src="./assets/images/bottombun.png" alt="">
+<hr>
+<h2>Burgers crossed off my bucket list!</h2>
+<img src="./assets/images/topbun.png" alt="">
 <ul>
   {{#each burger}}
     {{#if eaten}}
@@ -19,8 +20,9 @@
     {{/if}}
   {{/each}}
 </ul>
-
-<h2>Add a burger</h2>
+<img src="./assets/images/bottombun.png" alt="">
+<hr>
+<h2>Add a burger!</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -29,7 +31,7 @@
   </div>
 
   <div class="form-group">
-    <label for="eaten">eaten?</label><br>
+    <label for="eaten">eaten?</label><br><br>
     <input type="radio" name="eaten" value="1" checked> eaten!<br>
     <input type="radio" name="eaten" value="0"> Not Eaten
   </div>
